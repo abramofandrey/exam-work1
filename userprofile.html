@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="normalize/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Exam task2</title>
+    </head>
+
+    <body>
+        <main class="profile">
+            <div class="container">
+                <button class="menu__btn"></button>
+                <h1 class="title profile__title">User Profile</h1>
+                <div class="profile__content">
+                    <div class="user-profile">
+                        <header class="user-profile__header-wrapper">
+                            <h4 class="user-profile__header-title">Edit Profile</h4>
+                            <p class="user-profile__header-description">Completed your profile</p>
+                        </header>
+                        <div class="form-container">
+                            <form class="user-profile__form" action="#">
+                                <div class="user-profile__info">
+                                    <div class="user-profile__input">
+                                        <label for="company">Company</label>
+                                        <input class="user-profile__info-input" type="text" name="company" id="" placeholder="">
+                                    </div>
+                                    <div class="user-profile__input">
+                                        <label for="username">Username</label>
+                                        <input class="user-profile__info-input" type="text" name="username" id="" placeholder="">
+                                    </div>
+                                    <div class="user-profile__input">
+                                        <label for="email">Email addres</label>
+                                        <input class="user-profile__info-input" type="email" name="email" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="user-profile__name">
+                                    <div class="user-profile__input">
+                                        <label for="firstname">First name</label>
+                                        <input class="user-profile__name-input" type="text" name="firstname" id="" placeholder="">
+                                    </div>
+                                    <div class="user-profile__input">
+                                        <label for="lastname">Last name</label>
+                                        <input class="user-profile__name-input" type="text" name="lastname" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="user-profile__address">
+                                    <div class="user-profile__input">
+                                        <label for="address">Address</label>
+                                        <input class="user-profile__address-input" type="text" name="adderss" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="user-profile__location">
+                                    <div class="user-profile__input">
+                                        <label for="city">City</label>
+                                        <input class="user-profile__location-input" type="text" name="city" id="" placeholder="">
+                                    </div>
+                                    <div class="user-profile__input">
+                                        <label for="country">Country</label>
+                                        <input class="user-profile__location-input" type="text" name="country" id="" placeholder="">
+                                    </div>
+                                    <div class="user-profile__input">
+                                        <label for="postal">Postal code</label>
+                                        <input class="user-profile__location-input" type="number" name="postal" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="user-profile__about">
+                                    <div class="user-profile__input">
+                                        <label for="about">About me</label>
+                                        <textarea class="user-profile__textarea" name="about" id="" placeholder=""></textarea>
+                                    </div>
+                                </div>
+                                <button class="user-profile__btn">update profile</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="user-cart">
+                        <div class="user-cart__wrapper">
+                            <img class="user-cart__avatar" src="img/avatar.jpg" alt="">
+                        </div>
+                        <p class="user-cart__info">ceo/co-founder</p>
+                        <h5 class="user-cart__name">Alec Thompson</h5>
+                        <p class="user-cart__text">
+                            Don't be scared of the thuth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye i love Rick Owens; bed disign but the back is...
+                        </p>
+                    </div>
+
+                </div>
+                <hr class="line">
+            </div>
+        </main>
+
+        <aside class="aside">
+            <header class="aside__header">
+                <h2 class="title aside__header-title">Company</h2>
+            </header>
+            <hr class="line aside__line">
+            <nav class="aside__menu">
+                <ul class="aside__menu-list">
+                    <li class="aside__menu-item">
+                        <a href="index.html" class="aside__menu-link">
+                            <svg class="aside__menu-icon" height="20" viewBox="0 0 48 48" width="20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h48v48h-48z" fill="none" />
+                                <path
+                                    d="M6 26h16v-20h-16v20zm0 16h16v-12h-16v12zm20 0h16v-20h-16v20zm0-36v12h16v-12h-16z" />
+                            </svg>
+                            <span class="aside__menu-caption">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="aside__menu-item">
+                        <a href="#" class="aside__menu-link">
+                            <svg class="aside__menu-icon" height="20" viewBox="0 0 48 48" width="20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24 8c-4.42 0-8 3.58-8 8 0 4.41 3.58 8 8 8s8-3.59 8-8c0-4.42-3.58-8-8-8zm0 20c-5.33 0-16 2.67-16 8v4h32v-4c0-5.33-10.67-8-16-8z" />
+                                <path d="M0 0h48v48h-48z" fill="none" />
+                            </svg>
+                            <span class="aside__menu-caption">User Profile</span>
+                        </a>
+                    </li>
+                    <li class="aside__menu-item"><a href="#" class="aside__menu-link">
+                            <svg class="aside__menu-icon" height="20" viewBox="0 0 48 48" width="20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5 14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z" />
+                                <path d="M0 0h48v48h-48z" fill="none" />
+                            </svg>
+                            <span class="aside__menu-caption">Maps</span>
+                        </a></li>
+                    <li class="aside__menu-item">
+                        <a href="#" class="aside__menu-link">
+                            <svg class="aside__menu-icon" height="20" viewBox="0 0 48 48" width="20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" d="M0 0h48v48h-48z" />
+                                <path
+                                    d="M36 14l-2.83-2.83-12.68 12.69 2.83 2.83 12.68-12.69zm8.49-2.83l-21.18 21.17-8.34-8.34-2.83 2.83 11.17 11.17 24-24-2.82-2.83zm-43.66 15.66l11.17 11.17 2.83-2.83-11.17-11.17-2.83 2.83z" />
+                            </svg>
+                            <span class="aside__menu-caption">Notification</span>
+                        </a>
+                    </li>
+                    <li class="aside__menu-item">
+                        <a href="#" class="aside__menu-link">
+                            <svg class="aside__menu-icon" height="20" viewBox="0 0 48 48" width="20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h48v48h-48z" fill="none" />
+                                <path
+                                    d="M23.99 4c-11.05 0-19.99 8.95-19.99 20s8.94 20 19.99 20c11.05 0 20.01-8.95 20.01-20s-8.96-20-20.01-20zm13.85 12h-5.9c-.65-2.5-1.56-4.9-2.76-7.12 3.68 1.26 6.74 3.81 8.66 7.12zm-13.84-7.93c1.67 2.4 2.97 5.07 3.82 7.93h-7.64c.85-2.86 2.15-5.53 3.82-7.93zm-15.48 19.93c-.33-1.28-.52-2.62-.52-4s.19-2.72.52-4h6.75c-.16 1.31-.27 2.64-.27 4 0 1.36.11 2.69.28 4h-6.76zm1.63 4h5.9c.65 2.5 1.56 4.9 2.76 7.13-3.68-1.26-6.74-3.82-8.66-7.13zm5.9-16h-5.9c1.92-3.31 4.98-5.87 8.66-7.13-1.2 2.23-2.11 4.63-2.76 7.13zm7.95 23.93c-1.66-2.4-2.96-5.07-3.82-7.93h7.64c-.86 2.86-2.16 5.53-3.82 7.93zm4.68-11.93h-9.36c-.19-1.31-.32-2.64-.32-4 0-1.36.13-2.69.32-4h9.36c.19 1.31.32 2.64.32 4 0 1.36-.13 2.69-.32 4zm.51 11.12c1.2-2.23 2.11-4.62 2.76-7.12h5.9c-1.93 3.31-4.99 5.86-8.66 7.12zm3.53-11.12c.16-1.31.28-2.64.28-4 0-1.36-.11-2.69-.28-4h6.75c.33 1.28.53 2.62.53 4s-.19 2.72-.53 4h-6.75z" />
+                            </svg>
+                            <span class="aside__menu-caption">Support</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <nav class="footer-menu">
+                        <ul class="footer-menu__list">
+                            <li class="footer-menu__item">
+                                <a href="#" class="footer-menu__link">about</a>
+                            </li>
+                            <li class="footer-menu__item">
+                                <a href="#" class="footer-menu__link">blog</a>
+                            </li>
+                            <li class="footer-menu__item">
+                                <a href="#" class="footer-menu__link">licenses</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <span class="footer__copyright">2019 - made with love</span>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
